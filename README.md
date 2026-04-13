@@ -51,9 +51,9 @@ import {
 import Client from "@triton-one/yellowstone-grpc"; // → MockClient via jest.setup
 import { NftHoldIndexer } from "../src/indexer";
 
-const MINT = "So11111111111111111111111111111111111111112";
-const WALLET1 = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA";
-const WALLET2 = "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s";
+const MINT = "GkNkuozgNFN7K5AAjmFjMSFnNegpqkwEGbJyEXGq7LYR";
+const WALLET1 = "5ByhkuHZMH7sU36DhfNMjy78hSMTPKJ1UEdDJqoKkmrU";
+const WALLET2 = "9nJ7BWiAsNEHzFBtNXLFKFuJJupCdMwZ6xGZZNYPumpE";
 
 it("counts hold slots on transfer", async () => {
   const ysm = new YellowStoneMock();
