@@ -1,6 +1,9 @@
 {
   "name": "yellowstone-grpc-mock",
-  "version": "0.1.0",
+  "version": "0.1.2",
+  "repository": {
+    "url": "https://github.com/ic-n/ye"
+  },
   "description": "Jest mock for @triton-one/yellowstone-grpc that emits real serialized on-chain data",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

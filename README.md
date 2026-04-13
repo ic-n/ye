@@ -1,6 +1,7 @@
 # yellowstone-grpc-mock
 
-https://github.com/ic-n/ye
+- https://github.com/ic-n/ye
+- https://www.npmjs.com/package/yellowstone-grpc-mock
 
 A Jest mock for [`@triton-one/yellowstone-grpc`](https://github.com/rpcpool/yellowstone-grpc) that emits **real serialized on-chain data** — SPL token account layouts, Metaplex metadata — so your tests exercise the full parse pipeline rather than just app logic after parsing.
 
